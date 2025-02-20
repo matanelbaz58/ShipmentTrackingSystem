@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order No."
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvOrderNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Date"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvOrderDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Number"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvItemNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Description"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvItemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country of Origin"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvCountryOfOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Departure Date"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvDepartureDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destination Country"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvDestinationCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estimated Arrival Date"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvEstimatedArrivalDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery Receipt Date"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvDeliveryReceiptDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Status"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvOrderStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shipment No."
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvShipmentNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnEditOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Order" />
+
+        <Button
+            android:id="@+id/btnDeleteOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Order"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnViewShipments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Shipment Details"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

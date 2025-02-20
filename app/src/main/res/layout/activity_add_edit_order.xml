@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etOrderNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Order No." />
+
+        <EditText
+            android:id="@+id/etOrderDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Order Date (YYYY-MM-DD)" />
+
+        <EditText
+            android:id="@+id/etItemNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Number" />
+
+        <EditText
+            android:id="@+id/etItemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Description" />
+
+        <EditText
+            android:id="@+id/etCountryOfOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country of Origin" />
+
+        <EditText
+            android:id="@+id/etDepartureDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Departure Date (YYYY-MM-DD)" />
+
+        <EditText
+            android:id="@+id/etDestinationCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination Country" />
+
+        <EditText
+            android:id="@+id/etEstimatedArrivalDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estimated Arrival Date (YYYY-MM-DD)" />
+
+        <EditText
+            android:id="@+id/etDeliveryReceiptDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delivery Receipt Date (YYYY-MM-DD)" />
+
+        <EditText
+            android:id="@+id/etOrderStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Order Status" />
+
+        <EditText
+            android:id="@+id/etShipmentNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shipment No." />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+    </LinearLayout>
+</ScrollView>
